@@ -21,6 +21,7 @@ config.window_padding = {
 config.keys = {
   { key = 'v', mods = 'CTRL', action = act.PasteFrom 'Clipboard' },
   { key = 'V', mods = 'CTRL', action = act.PasteFrom 'PrimarySelection' },
+  { key = 't', mods = 'ALT', action = act.SpawnTab 'CurrentPaneDomain' },
 }
 
 for i = 1, 8 do
